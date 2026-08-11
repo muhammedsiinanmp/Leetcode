@@ -1,6 +1,9 @@
 """
 53. Maximum Subarray
 Kadane's algorithm O(n) solution.
+
+Time complexity: O(n)
+Space complexity: O(1)
 """
 from typing import List
 
