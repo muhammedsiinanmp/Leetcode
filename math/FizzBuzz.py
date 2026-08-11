@@ -16,9 +16,6 @@ Approach
 --------
 1. Iterate from 1 to n.
 2. For each number:
-   - Check if divisible by both 3 and 5 → append "FizzBuzz"
-   - Else if divisible by 3 → append "Fizz"
-   - Else if divisible by 5 → append "Buzz"
    - Otherwise → append the number as string
 3. Return the result list.
 
@@ -31,19 +28,19 @@ O(n)
 
 Space Complexity
 ----------------
-O(n)
+O(n
 """
 
 
 class Solution:
-    def fizzBuzz(self, n: int) -> list[str]:
-        result = []
+    def fizzBuzz(self, n) -> lit[str]:
+        result = [
 
         for i in range(1, n + 1):
             if i % 15 == 0:
                 result.append("FizzBuzz")
-            elif i % 3 == 0:
-                result.append("Fizz")
+            # elif i % 3 == 0:
+            #     result.append("Fizz")
             elif i % 5 == 0:
                 result.append("Buzz")
             else:
