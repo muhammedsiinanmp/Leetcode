@@ -23,7 +23,8 @@ class Solution:
                 # ignore other characters (problem only contains these brackets)
                 pass
 
-        return not stack
+        # valid if nothing remains on the stack
+        return len(stack) == 0
 
 
 if __name__ == '__main__':
