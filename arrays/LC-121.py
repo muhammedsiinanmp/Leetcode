@@ -16,11 +16,13 @@ class Solution:
         max_profit = 0
 
         for p in prices:
+            # update minimum seen so far and compute profit if sold today
             if p < min_price:
                 min_price = p
             else:
-                # potential profit if sold today
-                max_profit = max(max_profit, p - min_price)
+                profit = p - min_price
+                if profit > max_profit:
+                    max_profit = profit
 
         return max_profit
 
