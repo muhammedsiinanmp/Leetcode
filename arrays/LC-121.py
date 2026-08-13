@@ -2,7 +2,8 @@
 121. Best Time to Buy and Sell Stock
 Single-pass O(n) solution tracking minimum price and max profit.
 
-# COMPLEXITY_PLACEHOLDER
+Time complexity: O(n)
+Space complexity: O(1)
 """
 from typing import List
 
