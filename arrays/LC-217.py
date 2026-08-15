@@ -12,9 +12,11 @@ class Solution:
         # Using a set to detect duplicates in O(n) time and O(n) space
         seen = set()
         for x in nums:
+            # early return when a duplicate is found
             if x in seen:
                 return True
             seen.add(x)
+        # no duplicates found
         return False
 
 
