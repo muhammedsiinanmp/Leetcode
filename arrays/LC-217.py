@@ -1,6 +1,9 @@
 """
 217. Contains Duplicate
 Return True if any value appears at least twice in the array.
+
+Time complexity: O(n)
+Space complexity: O(n)
 """
 from typing import List
 
