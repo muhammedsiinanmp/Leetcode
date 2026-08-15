@@ -17,3 +17,4 @@ Each solution includes:
 - Leetcode-53: Maximum Subarray (arrays/LC-53.py)
 - Leetcode-20: Valid Parentheses (strings/LC-20.py)
 - Leetcode-121: Best Time to Buy and Sell Stock (arrays/LC-121.py)
+- Leetcode-217: Contains Duplicate (arrays/LC-217.py)
