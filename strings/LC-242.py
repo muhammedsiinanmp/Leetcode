@@ -11,17 +11,15 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        counts = Counter()
-        for ch in s:
-            counts[ch] += 1
+        counts = Counter(s)
 
         for ch in t:
-            # if this character is missing or overused, the strings are not anagrams
+            # if a character is missing or overused, the strings are not anagrams
             if counts[ch] == 0:
                 return False
             counts[ch] -= 1
 
-        # all counts must be back to zero for a valid anagram
+        # all characters must be matched exactly once
         return all(v == 0 for v in counts.values())
 
 
