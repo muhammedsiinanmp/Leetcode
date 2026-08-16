@@ -1,9 +1,6 @@
 """
 242. Valid Anagram
 Check whether two strings are anagrams using character counts.
-
-Time complexity: O(n)
-Space complexity: O(k), where k is the number of distinct characters
 """
 
 from collections import Counter
@@ -19,10 +16,12 @@ class Solution:
             counts[ch] += 1
 
         for ch in t:
+            # if this character is missing or overused, the strings are not anagrams
             if counts[ch] == 0:
                 return False
             counts[ch] -= 1
 
+        # all counts must be back to zero for a valid anagram
         return all(v == 0 for v in counts.values())
 
 
