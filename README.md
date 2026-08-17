@@ -19,3 +19,4 @@ Each solution includes:
 - Leetcode-121: Best Time to Buy and Sell Stock (arrays/LC-121.py)
 - Leetcode-217: Contains Duplicate (arrays/LC-217.py)
 - Leetcode-242: Valid Anagram (strings/LC-242.py)
+- Leetcode-1047: Remove All Adjacent Duplicates In String (strings/LC_1047.py)
