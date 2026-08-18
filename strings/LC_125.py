@@ -3,6 +3,9 @@ class Solution:
         """Return True if s is a palindrome after removing non-alphanumeric
         chars and ignoring case. Two-pointer approach in O(n) time and O(1) extra space.
         """
+        if len(s) <= 1:
+            return True
+
         i, j = 0, len(s) - 1
         while i < j:
             # move i forward to next alnum
