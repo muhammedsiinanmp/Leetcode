@@ -22,3 +22,5 @@ Each solution includes:
 - Leetcode-1047: Remove All Adjacent Duplicates In String (strings/LC_1047.py)
 
 - Leetcode-125: Valid Palindrome (strings/LC_125.py)
+
+- Leetcode-13: Roman to Integer (strings/LC_13.py)
