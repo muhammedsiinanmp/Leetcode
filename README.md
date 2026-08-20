@@ -24,3 +24,5 @@ Each solution includes:
 - Leetcode-125: Valid Palindrome (strings/LC_125.py)
 
 - Leetcode-13: Roman to Integer (strings/LC_13.py)
+
+- Leetcode-58: Length of Last Word (strings/LC_58.py)
