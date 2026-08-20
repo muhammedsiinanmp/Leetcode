@@ -18,7 +18,7 @@ def run_tests():
     cases = [
         ("Hello World", 5),
         ("   fly me   to   the moon  ", 4),
-        ("luffy is still joyboy", 7),
+        ("luffy is still joyboy", 6),
         ("a", 1),
         ("", 0),
     ]
