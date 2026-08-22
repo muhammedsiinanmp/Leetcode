@@ -26,3 +26,5 @@ Each solution includes:
 - Leetcode-13: Roman to Integer (strings/LC_13.py)
 
 - Leetcode-58: Length of Last Word (strings/LC_58.py)
+
+- Leetcode-14: Longest Common Prefix (strings/LC_14.py)
