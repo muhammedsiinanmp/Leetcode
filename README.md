@@ -28,3 +28,5 @@ Each solution includes:
 - Leetcode-58: Length of Last Word (strings/LC_58.py)
 
 - Leetcode-14: Longest Common Prefix (strings/LC_14.py)
+
+- Leetcode-27: Remove Element (arrays/LC_27.py)
