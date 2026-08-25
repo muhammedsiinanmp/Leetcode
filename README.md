@@ -30,3 +30,5 @@ Each solution includes:
 - Leetcode-14: Longest Common Prefix (strings/LC_14.py)
 
 - Leetcode-27: Remove Element (arrays/LC_27.py)
+
+- Leetcode-35: Search Insert Position (arrays/LC_35.py)
