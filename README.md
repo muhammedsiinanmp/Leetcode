@@ -32,3 +32,5 @@ Each solution includes:
 - Leetcode-27: Remove Element (arrays/LC_27.py)
 
 - Leetcode-35: Search Insert Position (arrays/LC_35.py)
+
+- Leetcode-66: Plus One (arrays/LC_66.py)
