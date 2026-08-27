@@ -34,3 +34,5 @@ Each solution includes:
 - Leetcode-35: Search Insert Position (arrays/LC_35.py)
 
 - Leetcode-66: Plus One (arrays/LC_66.py)
+
+- Leetcode-70: Climbing Stairs (math/LC_70.py)
