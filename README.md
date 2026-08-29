@@ -38,3 +38,5 @@ Each solution includes:
 - Leetcode-70: Climbing Stairs (math/LC_70.py)
 
 - Leetcode-344: Reverse String (strings/LC_344.py)
+
+- Leetcode-26: Remove Duplicates from Sorted Array (arrays/LC_26.py)
