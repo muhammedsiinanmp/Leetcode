@@ -42,3 +42,5 @@ Each solution includes:
 - Leetcode-26: Remove Duplicates from Sorted Array (arrays/LC_26.py)
 
 - Leetcode-28: Implement strStr() (strings/LC_28.py)
+
+- Leetcode-67: Add Binary (strings/LC_67.py)
