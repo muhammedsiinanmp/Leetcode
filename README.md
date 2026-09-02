@@ -44,3 +44,5 @@ Each solution includes:
 - Leetcode-28: Implement strStr() (strings/LC_28.py)
 
 - Leetcode-67: Add Binary (strings/LC_67.py)
+
+- Leetcode-387: First Unique Character in a String (strings/LC_387.py)
