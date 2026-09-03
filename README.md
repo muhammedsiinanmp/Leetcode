@@ -46,3 +46,5 @@ Each solution includes:
 - Leetcode-67: Add Binary (strings/LC_67.py)
 
 - Leetcode-387: First Unique Character in a String (strings/LC_387.py)
+
+- Leetcode-383: Ransom Note (hashmaps/LC_383.py)
