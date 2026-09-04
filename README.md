@@ -48,3 +48,5 @@ Each solution includes:
 - Leetcode-387: First Unique Character in a String (strings/LC_387.py)
 
 - Leetcode-383: Ransom Note (hashmaps/LC_383.py)
+
+- LC 415 - Add Strings (strings/LC_415.py)
