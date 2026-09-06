@@ -1,4 +1,14 @@
-from math.LC_9 import Solution
+import importlib.util
+import os
+
+# Import the solution by file path to avoid conflicting with stdlib 'math' module
+spec = importlib.util.spec_from_file_location(
+    "LC_9_module",
+    os.path.join(os.path.dirname(__file__), '..', 'math', 'LC_9.py')
+)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+Solution = module.Solution
 
 
 def test_is_palindrome():
