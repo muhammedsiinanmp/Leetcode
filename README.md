@@ -50,3 +50,4 @@ Each solution includes:
 - Leetcode-383: Ransom Note (hashmaps/LC_383.py)
 
 - LC 415 - Add Strings (strings/LC_415.py)
+- LC 9 - Palindrome Number (math/LC_9.py)
