@@ -52,3 +52,4 @@ Each solution includes:
 - LC 415 - Add Strings (strings/LC_415.py)
 - LC 9 - Palindrome Number (math/LC_9.py)
 - LC 1 - Two Sum (arrays/LC_1.py)
+- LC 20 - Valid Parentheses (strings/LC_20.py)
