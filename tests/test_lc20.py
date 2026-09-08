@@ -1,32 +1,26 @@
+import importlib.util
 import os
-import sys
-repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, repo_root)
 
-# import the solution
-try:
-    from strings.LC_20 import Solution
-except Exception:
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("LC_20", os.path.join(repo_root, "strings", "LC-20.py"))
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    Solution = mod.Solution
+# Import by file path to avoid any module name issues
+spec = importlib.util.spec_from_file_location(
+    "LC_20_module",
+    os.path.join(os.path.dirname(__file__), '..', 'strings', 'LC_20.py')
+)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+Solution = module.Solution
 
-sol = Solution()
 
-def run_tests():
-    cases = [
-        ("()", True),
-        ("()[]{}", True),
-        ("(]", False),
-        ("([)]", False),
-        ("{[]}", True),
-    ]
-    for s, expected in cases:
-        res = sol.isValid(s)
-        assert res == expected, f"{s} => got {res}, expected {expected}"
+def test_is_valid():
+    s = Solution()
+    assert s.isValid("()") is True
+    assert s.isValid("()[]{}") is True
+    assert s.isValid("(]") is False
+    assert s.isValid("([)]") is False
+    assert s.isValid("{[]}") is True
+    assert s.isValid("") is True
 
-if __name__ == '__main__':
-    run_tests()
-    print('All LC-20 tests passed')
+
+if __name__ == "__main__":
+    test_is_valid()
+    print("All tests passed for LC20")
