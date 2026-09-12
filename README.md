@@ -54,3 +54,4 @@ Each solution includes:
 - LC 1 - Two Sum (arrays/LC_1.py)
 - LC 20 - Valid Parentheses (strings/LC_20.py)
 - LC 121 - Best Time to Buy and Sell Stock (arrays/LC_121.py)
+- LC 2 - Add Two Numbers (linked_lists/LC_2.py)
