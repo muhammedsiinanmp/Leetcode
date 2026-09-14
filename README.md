@@ -55,3 +55,4 @@ Each solution includes:
 - LC 20 - Valid Parentheses (strings/LC_20.py)
 - LC 121 - Best Time to Buy and Sell Stock (arrays/LC_121.py)
 - LC 2 - Add Two Numbers (linked_lists/LC_2.py)
+- LC 3 - Longest Substring Without Repeating Characters (strings/LC_3.py)
