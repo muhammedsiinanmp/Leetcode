@@ -57,3 +57,4 @@ Each solution includes:
 - LC 2 - Add Two Numbers (linked_lists/LC_2.py)
 - LC 3 - Longest Substring Without Repeating Characters (strings/LC_3.py)
 - LC 5 - Longest Palindromic Substring (strings/LC_5.py)
+- LC 7 - Reverse Integer (math/LC_7.py)
