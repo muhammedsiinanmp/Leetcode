@@ -58,3 +58,4 @@ Each solution includes:
 - LC 3 - Longest Substring Without Repeating Characters (strings/LC_3.py)
 - LC 5 - Longest Palindromic Substring (strings/LC_5.py)
 - LC 7 - Reverse Integer (math/LC_7.py)
+- LC 8 - String to Integer (atoi) (strings/LC_8.py)
