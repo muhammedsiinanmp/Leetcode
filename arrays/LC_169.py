@@ -1,4 +1,12 @@
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
         """Return the element that appears more than half the time."""
-        raise NotImplementedError
+        candidate = None
+        votes = 0
+
+        for value in nums:
+            if votes == 0:
+                candidate = value
+            votes += 1 if value == candidate else -1
+
+        return candidate
