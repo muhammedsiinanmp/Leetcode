@@ -22,6 +22,7 @@ Each solution includes:
 - Leetcode-1047: Remove All Adjacent Duplicates In String (strings/LC_1047.py)
 - Leetcode-49: Group Anagrams (hashmaps/LC_49.py)
 - Leetcode-169: Majority Element (arrays/LC_169.py)
+- Leetcode-238: Product of Array Except Self (arrays/LC_238.py)
 
 - Leetcode-125: Valid Palindrome (strings/LC_125.py)
 
