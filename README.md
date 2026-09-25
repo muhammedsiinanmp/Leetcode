@@ -23,6 +23,7 @@ Each solution includes:
 - Leetcode-49: Group Anagrams (hashmaps/LC_49.py)
 - Leetcode-169: Majority Element (arrays/LC_169.py)
 - Leetcode-238: Product of Array Except Self (arrays/LC_238.py)
+- Leetcode-347: Top K Frequent Elements (hashmaps/LC_347.py)
 
 - Leetcode-125: Valid Palindrome (strings/LC_125.py)
 
