@@ -12,6 +12,23 @@ Each solution includes:
 - Approach explanation
 - Time & Space complexity
 
+## Testing
+
+Tests live in `tests/` as plain runnable scripts (no pytest required, though
+they are pytest-compatible):
+
+```
+python3 tests/test_lc15.py
+```
+
+`tests/test_repo_integrity.py` is a repo-wide guard that compiles every `.py`
+file in the tree and runs every test script. Run it after adding solutions to
+catch syntax errors and broken tests:
+
+```
+python3 tests/test_repo_integrity.py
+```
+
 ### Recent additions
 
 - Leetcode-15: 3Sum (hashmaps/LC-15.py)
