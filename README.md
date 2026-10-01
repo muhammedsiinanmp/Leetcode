@@ -38,6 +38,10 @@ python3 tests/test_repo_integrity.py
 - Leetcode-217: Contains Duplicate (arrays/LC-217.py)
 - Leetcode-242: Valid Anagram (strings/LC-242.py)
 - Leetcode-1047: Remove All Adjacent Duplicates In String (strings/LC_1047.py)
+- Leetcode-49: Group Anagrams (hashmaps/LC_49.py)
+- Leetcode-169: Majority Element (arrays/LC_169.py)
+- Leetcode-238: Product of Array Except Self (arrays/LC_238.py)
+- Leetcode-347: Top K Frequent Elements (hashmaps/LC_347.py)
 
 - Leetcode-125: Valid Palindrome (strings/LC_125.py)
 
