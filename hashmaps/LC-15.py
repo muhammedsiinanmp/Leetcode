@@ -1,10 +1,43 @@
 """
 15. 3Sum
-Sort the array, then for each anchor element use two pointers to find the
-remaining pair that completes a zero-sum triplet.
+Given an integer array nums, return all the unique triplets
+[nums[i], nums[j], nums[k]] such that i, j and k are distinct indices and
+nums[i] + nums[j] + nums[k] == 0. The solution set must not contain
+duplicate triplets.
 
-Time complexity: O(n^2)
-Space complexity: O(n) worst case for Python's sort, O(1) for the scan
+Example
+-------
+Input:  nums = [-1, 0, 1, 2, -1, -4]
+Output: [[-1, -1, 2], [-1, 0, 1]]
+
+Approach
+--------
+Sort the array, then fix each element as an anchor and search for the other
+two with a two-pointer scan.
+
+1. Sort nums. Sorting lets both pointers move monotonically inward, and it
+   makes adjacent elements comparable so duplicate values can be skipped.
+2. For each index i from 0 to n - 3:
+   a. If nums[i] > 0 the sum of three remaining values can no longer reach 0,
+      so stop early.
+   b. If nums[i] == nums[i - 1] the anchor is a repeat, so skip it. Without
+      this the same triplets would be produced several times over.
+   c. Place left at i + 1 and right at n - 1 and compare the sum:
+      - sum < 0  -> too small, advance left to increase the sum
+      - sum > 0  -> too large, decrease right to reduce the sum
+      - sum == 0 -> record the triplet, then skip past duplicate values on
+                    both sides before moving both pointers inward.
+3. Duplicates are skipped in three places: repeated anchors, repeated left
+   values, and repeated right values.
+
+Complexity
+----------
+Time:  O(n^2). The sort is O(n log n); the outer loop runs at most n times and
+      each two-pointer scan moves the pointers a total of O(n) steps, so the
+      scan dominates.
+Space: O(n) in the worst case for the auxiliary buffer Python's sort may use,
+      plus O(1) for the scan itself. The returned list is excluded, and can
+      hold O(n^2) triplets in the worst case.
 """
 from typing import List
 
