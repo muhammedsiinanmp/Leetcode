@@ -79,3 +79,4 @@ python3 tests/test_repo_integrity.py
 - LC 8 - String to Integer (atoi) (strings/LC_8.py)
 - LC 11 - Container With Most Water (arrays/LC_11.py)
 - LC 238 - Product of Array Except Self (arrays/LC_238.py)
+- LC 704 - Binary Search (arrays/LC_704.py)
