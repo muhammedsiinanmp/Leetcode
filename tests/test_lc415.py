@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Running this file directly puts tests/ on sys.path rather than the repo
+# root, so the top-level solution directories are not importable without
+# adding the root explicitly.
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, repo_root)
+
 from strings.LC_415 import Solution
 
 

@@ -16,6 +16,9 @@ Approach
 --------
 1. Iterate from 1 to n.
 2. For each number:
+   - Divisible by 15 -> append "FizzBuzz"
+   - Otherwise divisible by 3 -> append "Fizz"
+   - Otherwise divisible by 5 -> append "Buzz"
    - Otherwise → append the number as string
 3. Return the result list.
 
@@ -28,19 +31,19 @@ O(n)
 
 Space Complexity
 ----------------
-O(n
+O(n)
 """
 
 
 class Solution:
-    def fizzBuzz(self, n) -> lit[str]:
-        result = [
+    def fizzBuzz(self, n: int) -> list[str]:
+        result = []
 
         for i in range(1, n + 1):
             if i % 15 == 0:
                 result.append("FizzBuzz")
-            # elif i % 3 == 0:
-            #     result.append("Fizz")
+            elif i % 3 == 0:
+                result.append("Fizz")
             elif i % 5 == 0:
                 result.append("Buzz")
             else:

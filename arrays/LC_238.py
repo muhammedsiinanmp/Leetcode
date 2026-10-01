@@ -1,9 +1,9 @@
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
-        """Return each index's product without using division."""
+        """Return each index's product of all other values without division."""
         products = [1] * len(nums)
-        prefix = 1
 
+        prefix = 1
         for index, value in enumerate(nums):
             products[index] = prefix
             prefix *= value

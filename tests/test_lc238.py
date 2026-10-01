@@ -15,8 +15,9 @@ def test_product_except_self():
     solution = Solution()
     assert solution.productExceptSelf([1, 2, 3, 4]) == [24, 12, 8, 6]
     assert solution.productExceptSelf([-1, 1, 0, -3, 3]) == [0, 0, 9, 0, 0]
-    assert solution.productExceptSelf([2, 3]) == [3, 2]
-    assert solution.productExceptSelf([0, 0]) == [0, 0]
+    assert solution.productExceptSelf([0, 2, 0]) == [0, 0, 0]
+    assert solution.productExceptSelf([2, -3]) == [-3, 2]
+    assert solution.productExceptSelf([]) == []
 
 
 if __name__ == "__main__":
