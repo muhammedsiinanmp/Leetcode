@@ -12,8 +12,26 @@ Each solution includes:
 - Approach explanation
 - Time & Space complexity
 
+## Testing
+
+Tests live in `tests/` as plain runnable scripts (no pytest required, though
+they are pytest-compatible):
+
+```
+python3 tests/test_lc15.py
+```
+
+`tests/test_repo_integrity.py` is a repo-wide guard that compiles every `.py`
+file in the tree and runs every test script. Run it after adding solutions to
+catch syntax errors and broken tests:
+
+```
+python3 tests/test_repo_integrity.py
+```
+
 ### Recent additions
 
+- Leetcode-15: 3Sum (hashmaps/LC-15.py)
 - Leetcode-53: Maximum Subarray (arrays/LC-53.py)
 - Leetcode-20: Valid Parentheses (strings/LC-20.py)
 - Leetcode-121: Best Time to Buy and Sell Stock (arrays/LC-121.py)
@@ -62,3 +80,4 @@ Each solution includes:
 - LC 11 - Container With Most Water (arrays/LC_11.py)
 - LC 238 - Product of Array Except Self (arrays/LC_238.py)
 - LC 88 - Merge Sorted Array (arrays/LC_88.py)
+- LC 704 - Binary Search (arrays/LC_704.py)
