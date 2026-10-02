@@ -85,3 +85,4 @@ python3 tests/test_repo_integrity.py
 - LC 238 - Product of Array Except Self (arrays/LC_238.py)
 - LC 88 - Merge Sorted Array (arrays/LC_88.py)
 - LC 704 - Binary Search (arrays/LC_704.py)
+- LC 54 - Spiral Matrix (arrays/LC_54.py)
