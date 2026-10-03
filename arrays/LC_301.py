@@ -6,4 +6,12 @@ class Solution:
         entries are the distinct values in their original order, where k is
         the returned length; entries from index k on are undefined.
         """
-        raise NotImplementedError
+        if not nums:
+            return 0
+
+        k = 1
+        for i in range(1, len(nums)):
+            if nums[i] != nums[k - 1]:
+                nums[k] = nums[i]
+                k += 1
+        return k
