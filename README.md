@@ -36,6 +36,7 @@ python3 tests/test_repo_integrity.py
 - Leetcode-20: Valid Parentheses (strings/LC-20.py)
 - Leetcode-121: Best Time to Buy and Sell Stock (arrays/LC-121.py)
 - Leetcode-217: Contains Duplicate (arrays/LC-217.py)
+- Leetcode-301: Remove Duplicates from an Array (arrays/LC_301.py)
 - Leetcode-242: Valid Anagram (strings/LC-242.py)
 - Leetcode-1047: Remove All Adjacent Duplicates In String (strings/LC_1047.py)
 - Leetcode-49: Group Anagrams (hashmaps/LC_49.py)
