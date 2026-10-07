@@ -31,6 +31,7 @@ python3 tests/test_repo_integrity.py
 
 ### Recent additions
 
+- Leetcode-189: Rotate Array (arrays/LC_189.py)
 - Leetcode-15: 3Sum (hashmaps/LC-15.py)
 - Leetcode-53: Maximum Subarray (arrays/LC-53.py)
 - Leetcode-20: Valid Parentheses (strings/LC-20.py)
