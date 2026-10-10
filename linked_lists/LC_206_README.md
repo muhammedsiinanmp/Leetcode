@@ -14,3 +14,7 @@ Approach:
   which is the new head of the reversed list.
 - The nodes are relinked in place; no new nodes are allocated and the original
   node objects are reused.
+
+Time complexity: O(n) - each node is visited exactly once.
+Space complexity: O(1) extra space; only three pointers are kept regardless of
+list length.
