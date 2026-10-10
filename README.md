@@ -87,3 +87,4 @@ python3 tests/test_repo_integrity.py
 - LC 88 - Merge Sorted Array (arrays/LC_88.py)
 - LC 704 - Binary Search (arrays/LC_704.py)
 - LC 54 - Spiral Matrix (arrays/LC_54.py)
+- LC 206 - Reverse Linked List (linked_lists/LC_206.py)
