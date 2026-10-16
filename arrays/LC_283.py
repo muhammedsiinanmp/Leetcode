@@ -9,6 +9,9 @@ class Solution:
         is exhausted the tail is overwritten with zeroes. Each element is
         visited once and nothing is ever shifted, so the original relative
         order of the non-zero values is preserved.
+
+        Complexity: O(n) time over the length of nums, O(1) extra space
+        beyond the single write index.
         """
         write = 0
         for value in nums:
