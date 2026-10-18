@@ -89,3 +89,4 @@ python3 tests/test_repo_integrity.py
 - LC 54 - Spiral Matrix (arrays/LC_54.py)
 - LC 206 - Reverse Linked List (linked_lists/LC_206.py)
 - LC 283 - Move Zeroes (arrays/LC_283.py)
+- LC 605 - Can Place Flowers (arrays/LC_605.py)
