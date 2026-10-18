@@ -15,3 +15,8 @@ Approach:
   which enforces the no-adjacent rule without any extra bookkeeping.
 - Return as soon as n reaches zero, otherwise return whether n has been
   satisfied by the end of the scan.
+
+Time complexity: O(n) - a single pass over the bed, since planting early only
+ever removes work.
+Space complexity: O(1) extra space; the bed is mutated in place and only the
+remaining count n is tracked.
