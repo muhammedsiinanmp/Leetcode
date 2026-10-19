@@ -14,3 +14,9 @@ Approach:
 - Once one list is exhausted, attach the remainder of the other list in one
   step; it is already sorted and already linked.
 - Return `dummy.next`, skipping the sentinel node.
+
+Time complexity: O(n + m) - every node in both lists is visited at most once,
+where n and m are the lengths of list1 and list2.
+
+Space complexity: O(1) extra space - only a dummy node and a few pointers are
+allocated; the input nodes are relinked in place.
