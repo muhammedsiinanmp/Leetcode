@@ -90,3 +90,4 @@ python3 tests/test_repo_integrity.py
 - LC 206 - Reverse Linked List (linked_lists/LC_206.py)
 - LC 283 - Move Zeroes (arrays/LC_283.py)
 - LC 605 - Can Place Flowers (arrays/LC_605.py)
+- LC 21 - Merge Two Sorted Lists (linked_lists/LC_21.py)
