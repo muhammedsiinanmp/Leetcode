@@ -1,16 +1,20 @@
 # LeetCode Solutions
 
+Python solutions organized by topic, with a test suite that runs against the
+whole repo. 56 solution files, 38 of them with written notes.
+
 ## Categories
 
-- Strings
-- Arrays
-- Sliding Window
-- Dynamic Programming
+| Folder | Solutions | Notes |
+|--------|-----------|-------|
+| [`arrays/`](arrays) | 22 | 15 |
+| [`strings/`](strings) | 17 | 14 |
+| [`math/`](math) | 8 | 3 |
+| [`hashmaps/`](hashmaps) | 5 | 3 |
+| [`linked_lists/`](linked_lists) | 3 | 3 |
+| [`sql/`](sql) | 1 | 0 |
 
-Each solution includes:
-- Problem number
-- Approach explanation
-- Time & Space complexity
+Notes live beside each solution, for example `arrays/LC_1_README.md`.
 
 ## Testing
 
